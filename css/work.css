@@ -1,0 +1,149 @@
+html,body{
+    margin:0;
+    padding: 0;
+    background-color:#9ec3df;
+}
+
+a { 
+    text-decoration: none;
+}
+
+
+h1{
+    font-family: 'poiret one';
+    font-style: regular;
+    font-size: 200px;
+    line-height: 100%;
+    color: #003359;
+    text-align:left;
+    margin: 40px;
+    padding-left: 0px;
+    writing-mode: vertical-rl;
+}
+
+h2{ color:#003359;
+    font-family: 'Fira Sans';
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: bold; 
+    text-align: left;
+    padding-right: 50px;
+    margin: 50px;
+}
+
+h3 {color:#003359;
+    font-family: 'fira sans';
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 28px;
+    font-weight: bolder; 
+    text-align: left;
+    padding-right: 50px;
+    margin: 50px;
+
+}
+h4 {color:#003359;
+    font-family: 'fira sans';
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: normal; 
+    text-align: left;
+    padding-right: 50px;
+    margin: 50px;
+}
+
+
+h5 {color:white;
+    font-family: 'fira sans';
+    font-size: 40px;
+    font-weight: normal; 
+    text-align: left;
+    margin: 50px;
+}
+
+h6 {color:white;
+    font-family: 'fira sans';
+    font-size: 40px;
+    font-weight: normal; 
+    text-align: left;
+    padding-top: 100px;
+    margin: 50px;
+}
+
+
+.column1 {
+    padding-top: 30px;
+    float: left;
+    width: 40%;
+    background-color: #9ec3df;
+    height:14in;
+    flex-direction: column;
+}
+
+.column2 {
+    float: center;
+    width: 20%;
+    background-color: #003359;
+    flex-direction: column;
+}
+
+.column3 {
+    float: right;
+    width: 40%;
+    max-height: 2000px;
+    background-color: white;
+    flex-direction: column;
+}
+#magnolia {
+    padding: 90px;
+}
+
+
+p {
+    color:white;
+    font-family: 'Fira Sans';
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: normal; 
+    text-align: left;
+    margin-left: 100px;
+ }
+
+ .inline-block {
+    display: inline-block;
+    align-items: center;
+    justify-content:space-evenly;
+    font-family: 'fira sans';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    word-spacing: 50px;
+    padding: 10px;
+}
+.footer {
+    background-color: #003359;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    height: auto;
+   
+}
+
+
+ /*
+.inline-block {
+    display: inline-block;
+    font-family: 'fira sans';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    word-spacing: 100px;
+    padding: 10px;
+}
+*/
+ 

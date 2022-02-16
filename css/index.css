@@ -1,0 +1,40 @@
+/*/ this is the HOME PAGE  /*/
+html,body{
+    margin:0;
+    padding: 0;
+    background-color: white
+}
+
+a { text-decoration: none;
+}
+
+#homepagebkg {
+    width: 100%;
+    height: auto;
+}
+
+
+.inline-block {
+    display: inline-block;
+    font-family: 'fira sans';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    word-spacing: 100px;
+    padding: 10px;
+}
+.footer {
+    background-color: #9ec3df;
+    align: center;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+

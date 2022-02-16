@@ -1,0 +1,128 @@
+html,body{
+    margin:0;
+    padding: 0;
+    background-color: #003359;
+}
+
+a { 
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'poiret one';
+    font-style: regular;
+    font-size: 200px;
+    line-height: 100%;
+    color: #9ec3df;
+    text-align:left;
+    margin: 40px;
+    padding-left: 0px;
+    writing-mode: vertical-rl;
+}
+
+h2{ color:#003359;
+    font-family: 'Fira Sans';
+    font-size: 26px;
+    font-weight: roman; 
+    text-align: left;
+    padding-bottom: 0%; 
+    padding-top: 0px;
+    padding-right: 0px;
+    margin: 50px;
+}
+
+h3 {color:#003359;
+    font-family: 'fira sans';
+    font-size: 22px;
+    font-weight: roman; 
+    text-align: left;
+    padding-bottom: 0%; 
+    padding-top: 0px;
+    margin: 50px;
+
+}
+h4 {color:#003359;
+    font-family: 'fira sans';
+    font-size: 18px;
+    font-weight: normal; 
+    text-align: left;
+    margin: 50px;
+}
+
+
+
+
+
+
+.column1 {
+    padding-top: 200px;
+    float: left;
+    width: 40%;
+    background-color: #003359;
+    flex-direction: column;
+}
+
+.column2 {
+    float: center;
+    width: 10%;
+    background-color: #003359;
+    flex-direction: column;
+}
+
+.column3 {
+    float: right;
+    width: 50%;
+    max-height: 2000px;
+    background-color: white;
+    flex-direction: column;
+}
+#magnolia {
+    padding: 90px;
+}
+
+
+p {
+    color:white;
+    font-family: 'Fira Sans';
+    font-size: 30px;
+    font-weight: normal; 
+    text-align: left;
+    margin-left: 100px;
+ }
+
+ .inline-block {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'fira sans';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    word-spacing: 50px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #9ec3df;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    Height: auto;
+}
+
+
+/*
+.inline-block {
+    display: inline-block;
+    font-family: 'fira sans';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    word-spacing: 100px;
+    padding: 10px;
+}
+*/
+ 
+

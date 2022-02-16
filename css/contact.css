@@ -1,0 +1,56 @@
+html,body{
+    margin:0;
+    padding: 0;
+}
+
+a { 
+    text-decoration: none;
+}
+nav{
+    padding: 1%;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    font-family: fira sans;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 10px;
+    letter-spacing: 2px;
+}
+
+li {
+    display: inline;
+     margin-right: 20px;
+ }
+
+ ul {   
+    display:inline-block;
+    vertical-align:top;
+    padding: 30px;
+    color: lightblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold; 
+    margin-bottom: 50px;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+}
+
+.column2 {
+    float: right;
+    width: 50%;
+}
+#backgroundhome {
+    background-color: white;
+}
+
+.logo {
+    width:5%;
+    padding: 1%;
+    text-align: center;
+}
