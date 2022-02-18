@@ -8,6 +8,12 @@ a {
     text-decoration: none;
 }
 
+#magnolia { 
+    width: 400px;
+    margin-left: -170px;
+    margin-top: -80px;
+}
+
 
 h1{
     font-family: 'poiret one';
@@ -30,6 +36,7 @@ h2{ color:#003359;
     font-weight: bold; 
     text-align: left;
     padding-right: 50px;
+    margin-top: -300px;
     margin: 50px;
 }
 
@@ -69,7 +76,7 @@ h6 {color:white;
     font-size: 40px;
     font-weight: normal; 
     text-align: left;
-    padding-top: 100px;
+    padding-top: 50px;
     margin: 50px;
 }
 

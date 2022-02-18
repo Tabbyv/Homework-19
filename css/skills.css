@@ -8,6 +8,12 @@ a {
     text-decoration: none;
 }
 
+#magnolia { 
+    width: 400px;
+    margin-left: -150px;
+    margin-top: -80
+}
+
 h1{
     font-family: 'poiret one';
     font-style: regular;

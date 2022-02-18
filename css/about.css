@@ -7,6 +7,10 @@ a {
     text-decoration: none;
 }
 
+#magnolia { 
+    width: 400px;
+    margin-left: -75px;
+}
 
  h1{
     font-family: 'poiret one';

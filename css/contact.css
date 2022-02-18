@@ -10,6 +10,11 @@ nav{
     padding: 1%;
 }
 
+#magnolia { 
+    width: 400px;
+    margin-left: -75px;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
