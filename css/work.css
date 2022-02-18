@@ -12,7 +12,8 @@ a {
 h1{
     font-family: 'poiret one';
     font-style: regular;
-    font-size: 200px;
+    font-size: 150px;
+    display: flex;
     line-height: 100%;
     color: #003359;
     text-align:left;
