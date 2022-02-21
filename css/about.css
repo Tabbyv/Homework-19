@@ -12,10 +12,15 @@ a {
     margin-left: -75px;
 }
 
+#backgroundimage {
+    width: 1500px;
+    margin-top: 0px;
+}
+
  h1{
     font-family: 'poiret one';
     font-style: regular;
-    font-size: 200px;
+    font-size: 230px;
     line-height: 100%;
     color: #ffe595;
     text-align:left;
@@ -67,27 +72,21 @@ p {
  }
 
 .column1 {
-    padding-top: 30px;
+    padding-top: 0px;
     float: left; 
     width: 40%;
     background-color: #9ec3df;
     flex-direction: column;
 }
 
-.column2 {
-    float: center;
-    width: 20%;
-    background-color: #9ec3df;
-    flex-direction: column;
-}
 
 
 .column3 {
     float: right;
-    width: 50%;
+    width: 60%;
     background-color: white;
     flex-direction: column;
-    height: 800px;
+    height: auto;
 }
 button {
     color:#ffe595;

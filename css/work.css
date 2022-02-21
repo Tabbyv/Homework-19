@@ -18,14 +18,12 @@ a {
 h1{
     font-family: 'poiret one';
     font-style: regular;
-    font-size: 150px;
-    display: flex;
+    font-size: 230px;
     line-height: 100%;
-    color: #003359;
-    text-align:left;
+    color: #9ec3df;
+    text-align:right;
     margin: 40px;
     padding-left: 0px;
-    writing-mode: vertical-rl;
 }
 
 h2{ color:#003359;
@@ -82,25 +80,20 @@ h6 {color:white;
 
 
 .column1 {
-    padding-top: 30px;
+    padding-top: 40px;
     float: left;
-    width: 40%;
+    width: 50%;
     background-color: #9ec3df;
     height:14in;
     flex-direction: column;
 }
 
-.column2 {
-    float: center;
-    width: 20%;
-    background-color: #003359;
-    flex-direction: column;
-}
+
 
 .column3 {
     float: right;
-    width: 40%;
-    max-height: 2000px;
+    width: 50%;
+    height: 2000px;
     background-color: white;
     flex-direction: column;
 }

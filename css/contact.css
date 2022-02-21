@@ -1,6 +1,7 @@
 html,body{
     margin:0;
     padding: 0;
+    background-color: #9ec3df;
 }
 
 a { 
@@ -12,50 +13,132 @@ nav{
 
 #magnolia { 
     width: 400px;
-    margin-left: -75px;
+    margin-left: -175px;
 }
 
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
-    font-family: fira sans;
-    font-style: normal;
-    font-size: 20px;
-    line-height: 10px;
-    letter-spacing: 2px;
+#backgroundimage {
+    width: 1500px;
+    margin-top: 0px;
 }
+
 
 li {
     display: inline;
      margin-right: 20px;
  }
 
- ul {   
-    display:inline-block;
-    vertical-align:top;
-    padding: 30px;
-    color: lightblue;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: bold; 
-    margin-bottom: 50px;
+ h1{
+    font-family: 'poiret one';
+    font-style: regular;
+    font-size: 260px;
+    line-height: 100%;
+    color: #ffe595;
+    text-align:left;
+    margin: 50px;
+    padding-left: 25px;
+    padding-bottom: 80px;
+    writing-mode: vertical-rl;
+    
 }
+
+ h2{ color:#003359;
+    font-family: 'Fira Sans';
+    font-size: 80px;
+    font-weight: lighter; 
+    text-align: left;
+    padding-bottom: 0%; 
+    padding-top: 0px;
+    padding-right: 0px;
+    margin: 50px;
+}
+
+h3 {color:#003359;
+    font-family: 'fira sans';
+    font-size: 40px;
+    font-weight: roman; 
+    text-align: left;
+    padding-bottom: 0%; 
+    padding-top: 0px;
+    margin: 50px;
+}
+h4 {color:#003359;
+    font-family: 'fira sans';
+    font-size: 40px;
+    font-weight: lighter; 
+    text-align: left;
+    margin: 50px;
+}
+
+
 
 .column1 {
+    padding-top: 100px;
     float: left;
-    width: 50%;
+    width: 40%;
+    background-color: #9ec3df;
+    flex-direction: column;
 }
 
-.column2 {
+
+.column3 {
     float: right;
-    width: 50%;
-}
-#backgroundhome {
+    width: 60%;
+    height: auto;
     background-color: white;
+    flex-direction: column;
+}
+#magnolia {
+    padding: 90px;
+}
+#phone {
+
+    width: 150px;
+    margin-left: 50px;
 }
 
-.logo {
-    width:5%;
-    padding: 1%;
-    text-align: center;
+#email {
+    width: 150px;
+    margin-left: 50px;
+}
+
+#behance {
+    width: 150px;
+    margin-left: 50px;
+}
+
+#facebook {
+    width: 150px;
+    margin-left: 50px;
+}
+
+#linkedin {
+    width: 150px;
+    margin-left: 50px;
+
+}
+
+
+
+
+
+
+ .inline-block {
+    display: inline-block;
+    justify-content: space-around;
+    font-family: 'fira sans';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    word-spacing: 50px;
+    padding: 10px;
+ }
+
+
+ .footer {
+    background-color: #003359;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    Height: auto;
 }

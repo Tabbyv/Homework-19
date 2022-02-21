@@ -17,13 +17,15 @@ a {
 h1{
     font-family: 'poiret one';
     font-style: regular;
-    font-size: 200px;
+    font-size: 260px;
     line-height: 100%;
     color: #9ec3df;
     text-align:left;
-    margin: 40px;
-    padding-left: 0px;
+    margin: 50px;
+    padding-left: 25px;
+    padding-bottom: 80px;
     writing-mode: vertical-rl;
+    
 }
 
 h2{ color:#003359;
@@ -61,24 +63,18 @@ h4 {color:#003359;
 
 
 .column1 {
-    padding-top: 200px;
+    padding-top: 100px;
     float: left;
     width: 40%;
-    background-color: #003359;
     flex-direction: column;
 }
 
-.column2 {
-    float: center;
-    width: 10%;
-    background-color: #003359;
-    flex-direction: column;
-}
+
 
 .column3 {
     float: right;
-    width: 50%;
-    max-height: 2000px;
+    width: 60%;
+    height: 2000px;
     background-color: white;
     flex-direction: column;
 }
@@ -98,7 +94,6 @@ p {
 
  .inline-block {
     display: inline-block;
-    align-items: center;
     justify-content: space-around;
     font-family: 'fira sans';
     font-style: normal;
@@ -117,6 +112,11 @@ p {
     Height: auto;
 }
 
+@media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+}
 
 /*
 .inline-block {
